@@ -1,0 +1,43 @@
+node_modules
+# Keep environment variables out of version control
+.env
+# Node.js dependencies
+node_modules/
+
+# TypeScript compiled files
+/dist/
+/build/
+/*.tsbuildinfo
+
+# Environment files
+.env
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files (if you're using VSCode or others)
+.vscode/
+.idea/
+
+# Docker related files (if using Docker)
+.docker/
+
+# NPM cache
+.npm/
+
+# Yarn lock file (if using Yarn, uncomment this if you don't want to commit it)
+# yarn.lock
+
+# NPM lock file (uncomment this if you don't want to commit it)
+# package-lock.json
+
+# TypeScript declaration files
+*.d.ts
